@@ -69,6 +69,11 @@ class SelectorPrimitive
         return self::isReadonly();
     }
 
+    public static function isAnonymous(): IsAnonymous
+    {
+        return new IsAnonymous();
+    }
+
     public static function isReadonly(): IsReadonly
     {
         return new IsReadonly();

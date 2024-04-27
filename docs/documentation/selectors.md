@@ -58,6 +58,9 @@ Select all final classes.
 ## Selector::isReadonly()
 Select all readonly classes.
 
+## Selector::isAnonymous()
+Select all anonymous classes.
+
 ## Selector::isAttribute()
 Select all attribute classes.
 
